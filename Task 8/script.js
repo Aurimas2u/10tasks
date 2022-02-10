@@ -28,3 +28,5 @@ function Calculator(num1, num2) {
   }
 
   const obj = new Calculator(5,2);
+
+  console.log(obj.sum())
