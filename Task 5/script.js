@@ -32,14 +32,3 @@ function filterAdults(users) {
   return users.age >= 18;
 }
 console.log(isAdults);
-
-
-
-// function filterDogOwners(arr){
-//   for (i = 0; i < arr.length; i++){
-//   if (arr[i].hasDog == true){
-//     console.log(`${arr[i].name} has a dog!`);
-//   } else (console.log(`${arr[i].name} might have a cat..`))
-// }
-// }
-// filterDogOwners(users);
