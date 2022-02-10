@@ -30,7 +30,7 @@ showCars();
       let model = '';
       brand += `<h2>${array[i].brand}</h2>`;
       for (let a = 0; a < array[i].models.length; a++) {
-      model += `<p>${a + 1}. ${array[i].models[a]}</p>`
+      model += `<p>${a + 1}. ${array[i].models[a]}</p><br>`
     }
     card.innerHTML += brand;
     card.innerHTML += model;
